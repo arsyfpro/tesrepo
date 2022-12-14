@@ -9,14 +9,5 @@
         Umur: <input type="number" name="umur"><br>
         <button type="submit" name="submit">Submit</button>
     </form>
- 
-    <?php
-        if ($_POST){
-            $nama = $_POST["nama"];
-            $umur = $_POST["umur"];
-
-            echo "Hallo $nama ($umur). Salam wlewlowlewlo";
-        }
-    ?>
 </body>
 </html>
